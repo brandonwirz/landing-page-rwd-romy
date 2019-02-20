@@ -1,15 +1,18 @@
+//scroll to navigation easing
 $(document).ready(function() {
-    // scroll history 01
+    // scroll to history 01
     $('#history').click(function(){
       $('html, body').animate({scrollTop: $('#history-section').offset().top}, 'slow', 'swing');
     });
+    // scroll to history 01
     $('#history2').click(function(){
       $('html, body').animate({scrollTop: $('#history-section').offset().top}, 'slow', 'swing');
     });
-    //scroll team 02
+    //scroll to team 02 bottom
      $('#team').click(function(){
        $('html, body').animate({scrollTop: $('#team-section').offset().top}, 'slow', 'swing');
      });
+     //scroll to team 02 bottom
      $('#team2').click(function(){
        $('html, body').animate({scrollTop: $('#team-section').offset().top}, 'slow', 'swing');
      });
